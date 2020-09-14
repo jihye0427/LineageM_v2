@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@import url("../common.css");
+
+/* /////////////////////////////////////////// */
+/* //////write.css/////////////////////////// */
+/* /////////////////////////////////////////// */
+
+#title-img>div{
+	min-height: 197px;
+	background-image: url("/images/community_bg1.jpg");
+	background-repeat: no-repeat;
+	background-size: 1920px auto;
+	background-position: 50% 0;
+	background-color: #000;
+}
+
+#page-tit p{
+	font-size: 20px;
+	font-weight: 700;
+	padding: 40px 0;
+}
+#board{
+	margin-bottom: 40px;
+}
+
+#board .wrap .write-form>*{
+	display: block;
+}
+
+#board .wrap div{
+	text-align: right;
+	margin-right: 10px;
+}
